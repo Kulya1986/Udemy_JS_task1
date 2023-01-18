@@ -1,0 +1,22 @@
+li{
+    padding: 5px;
+}
+
+li >p {
+    cursor: grab;
+    font-size: 1.2em;
+    display: inline;
+    padding: 3px;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.del{
+    margin-left: 20px;
+    background-color:#FF0000;
+}
+.del:hover{
+    background-color: #DE1111;
+}
